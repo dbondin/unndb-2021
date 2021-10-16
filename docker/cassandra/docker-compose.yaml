@@ -9,7 +9,7 @@ services:
     image: cassandra:latest
     environment:
       CASSANDRA_SEEDS: cassandra-node-1
-  cassandra-node-3:
-    image: cassandra:latest
-    environment:
-      CASSANDRA_SEEDS: cassandra-node-1
+#  cassandra-node-3:
+#    image: cassandra:latest
+#    environment:
+#      CASSANDRA_SEEDS: cassandra-node-1
